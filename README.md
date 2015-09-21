@@ -1,7 +1,9 @@
 SpreeLegacyData
 ===============
 
-Introduction goes here.
+This is a Spree extension to assist with managing legacy data, perhaps after migrating from a different e-commerce platform.
+
+Currently it adds only a TaxonMapping class. This is intended to be used to help redirect legacy traffic to the correct place in Spree.
 
 Installation
 ------------
@@ -29,11 +31,3 @@ bundle
 bundle exec rake
 ```
 
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
-
-```ruby
-require 'spree_legacy_data/factories'
-```
-
-Copyright (c) 2015 [name of extension creator], released under the New BSD License
